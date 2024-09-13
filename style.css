@@ -1,2 +1,43 @@
-body{background: grey;}
-h1{text-align:  center}
+body {
+    background: rgb(160, 160, 160);
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+h1 {
+    font-size: 100 px;
+}
+
+#post-1-image {
+    height: 70 vh;
+    width: 70 vw;
+}
+
+.post-1 {
+    background: white;
+    color: red;
+    border: 5px solid red;
+    padding: 50 px;
+}
+
+#post-2-image {
+    height: 70 vh;
+    width: 70 vw;
+}
+
+.post-2 {
+    background: white;
+    color: darkblue;
+    border: 5px solid darkblue;
+}
+
+#post-3-image {
+    height: 70 vh;
+    width: 70 vw;
+}
+
+.post-3 {
+    background: red;
+    color: white;
+    border: 5px solid green;
+}
