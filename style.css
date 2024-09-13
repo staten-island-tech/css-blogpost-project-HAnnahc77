@@ -1,3 +1,9 @@
+body, html *{
+    font-size 10px
+box-sizing: border box;
+margin: 0;
+padding: 0;
+}
 body {
     background: rgb(160, 160, 160);
     text-align: center;
@@ -9,35 +15,45 @@ h1 {
 }
 
 #post-1-image {
-    height: 70 vh;
-    width: 70 vw;
+    width: 100%;
+    height: 45%;
+    object-fit: cover;
 }
 
 .post-1 {
+    text-align: center;
     background: white;
     color: red;
+    height: 300px;
+    width: 700px;
     border: 5px solid red;
-    padding: 50 px;
+  padding: 5px;
 }
 
 #post-2-image {
-    height: 70 vh;
-    width: 70 vw;
+    width: 100%;
+    height: 45%;
+    object-fit: cover;
 }
 
 .post-2 {
     background: white;
     color: darkblue;
     border: 5px solid darkblue;
+    padding: 5px;
+    height: 70%;
 }
 
 #post-3-image {
-    height: 70 vh;
-    width: 70 vw;
+    width: 100%;
+    height: 45%;
+    object-fit: cover;
 }
 
 .post-3 {
     background: red;
     color: white;
     border: 5px solid green;
+    padding: 5px;
+    height: 70%;
 }
