@@ -1,12 +1,14 @@
 body,
 html * {
-    font-size 10px box-sizing: border box;
+    font-size 10px;
+    box-sizing: border box;
     margin: 0;
     padding: 0;
 }
 
 body {
-    background: rgb(160, 160, 160);
+    background: rgb(190, 190, 190);
+    align-items: center;
     text-align: center;
     font-family: "Raleway", sans-serif;
 }
@@ -18,8 +20,7 @@ body {
 
 h1 {
     font-size: 70px;
-    margin bottom: 20px;
-    margin top: 20px;
+    padding: 20px;
 }
 
 #post-1-image {
